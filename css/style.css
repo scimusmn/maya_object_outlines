@@ -86,10 +86,17 @@ ul {
 /* Content
    ========================================================================== */
 
-
-
-
-
+div#images {
+  height: 552px;
+  width: 550px;
+  margin-bottom: 2em;
+}
+div#images img:last-child {
+  position: relative;
+  top: -552px;
+  opacity: 0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+}
 
 /* =============================================================================
    Small screen adjustments
