@@ -22,8 +22,18 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-
 $(function() {
-  $('#slider').slider();
+  $('#slider').slider({
+    animate: 'slow',
+    change: function(event, ui) {
+      var mask = ui.value/100;
+      $('img#drawing').animate({
+        opacity: 1 - mask
+      });
+      $('img#photo').animate({
+        opacity: mask
+      });
+    }
+  });
 });
 
