@@ -1,119 +1,23 @@
-/*
- * Custom styles
- * Adapted from http://h5bp.github.com/
- */
-
-html {
-    font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-
 body {
-    max-width: 940px;
-    padding: 20px 10px;
-    margin: 0 auto;
-    background: #f5f5f5;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: #000000;
+  overflow: hidden;
+}
+img:last-child {
+  position: relative;
+  opacity: 0;
 }
 
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
+#slider {
+  position: absolute;
+  top: -9999px;
 }
-
-/* Links
-   ========================================================================== */
-
-a {
-    color: #0084b4;
-    text-decoration: none;
-}
-
-a:hover,
-a:focus,
-a:active {
-    color: #005E80;
-    text-decoration: underline;
-}
-
-a:focus {
-    outline: thin dotted;
-}
-
-a:hover,
-a:active {
-    outline: 0;
-}
-
-/* Typography
-   ========================================================================== */
-
-h1,
-h2,
-h3 {
-    margin: 0 0 1em;
-}
-
-h1, .h1 {
-    margin: 0 0 0.25em;
-    font-size: 3em;
-}
-
-h2, .h2 {
-    font-size: 1.25em;
-}
-
-h3, .h3 {
-    font-size: 1.125em;
-    color: #777;
-}
-
-p {
-    margin: 0 0 1em;
-}
-
-/* Lists
-   ========================================================================== */
-
-ol,
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Content
-   ========================================================================== */
 
 div#images {
-  height: 552px;
-  width: 550px;
-  margin-bottom: 2em;
+  height: 1359px;
+  width: 1080px;
 }
-div#images img:last-child {
-  position: relative;
-  top: -552px;
-  opacity: 0;
-  filter: alpha(opacity=0); /* For IE8 and earlier */
-}
-
-/* =============================================================================
-   Small screen adjustments
-   ========================================================================== */
-
-@media (max-width:960px) {
-
-    body {
-        max-width: 620px;
-    }
-
-}
-
-@media (max-width:640px) {
-
-    body {
-        max-width: 300px;
-    }
-
+img:last-child {
+  top: -1359px;
 }
