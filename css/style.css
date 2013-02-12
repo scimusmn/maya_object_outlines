@@ -14,10 +14,10 @@ img:last-child {
   top: -9999px;
 }
 
-body.lintel_24 div#images {
+div#images {
   height: 1359px;
   width: 1080px;
 }
-body.lintel_24 img:last-child {
+img:last-child {
   top: -1359px;
 }
