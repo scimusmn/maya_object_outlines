@@ -1,11 +1,16 @@
+body {
+  max-width: 1060px;
+  padding: 20px 10px;
+  margin: 0 auto;
+  background: #000000;
+}
 div#images {
   height: 552px;
   width: 550px;
-  margin-bottom: 2em;
+  margin-bottom: 2em; /* Can be removed when slider goes */
 }
 div#images img:last-child {
   position: relative;
   top: -552px;
   opacity: 0;
-  filter: alpha(opacity=0); /* For IE8 and earlier */
 }
