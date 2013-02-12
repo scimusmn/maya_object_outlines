@@ -2,10 +2,16 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   background: #000000;
+  overflow: hidden;
 }
 img:last-child {
   position: relative;
   opacity: 0;
+}
+
+#slider {
+  position: absolute;
+  top: -9999px;
 }
 
 body.lintel_24 div#images {
