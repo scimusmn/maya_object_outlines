@@ -1,4 +1,6 @@
 $(function() {
+
+  // Initialize the slider plugin
   $('#slider').slider({
     min: 0,
     max: 1,
@@ -9,4 +11,8 @@ $(function() {
       $('#photo').css('opacity', ui.value);
     }
   });
+
+  // Focus on the slider so keyboard controls work without clicking
+  $('#slider a').focus();
+
 });
