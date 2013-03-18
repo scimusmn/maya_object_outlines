@@ -21,3 +21,10 @@ div#images {
 img:last-child {
   top: -1359px;
 }
+
+body.lintel_24 #images {
+  margin-top: 120px;
+}
+body.lintel_25 #images {
+  margin-top: 160px;
+}
