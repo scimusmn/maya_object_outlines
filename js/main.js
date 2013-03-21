@@ -7,8 +7,8 @@ $(function() {
     step: 0.05,
     animate: 'slow',
     slide: function(event, ui) {
-      $('#drawing').css('opacity', 1-ui.value);
-      $('#photo').css('opacity', ui.value);
+      $('#photo').css('opacity', 1-ui.value);
+      $('#drawing').css('opacity', ui.value);
     }
   });
 
