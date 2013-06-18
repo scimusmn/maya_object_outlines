@@ -4,10 +4,6 @@ body {
   background: #000000;
   overflow: hidden;
 }
-img:last-child {
-  position: relative;
-  opacity: 0;
-}
 
 #slider {
   position: absolute;
@@ -19,5 +15,7 @@ div#images {
   width: 1080px;
 }
 img:last-child {
+  position: relative;
   top: -1920px;
+  opacity: 0;
 }
